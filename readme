@@ -1,0 +1,39 @@
+# Advanced Git Techniques: Git Rebase & Interactive Rebase
+
+---
+
+## Overview
+
+This repository demonstrates advanced Git techniques, focusing on:
+
+- **Git Rebase**: Rewriting commit history to create a cleaner, linear project history.
+- **Interactive Rebase**: Fine-tuning commits (edit, squash, reword, etc.) for even more control.
+
+Understanding and mastering these techniques can significantly improve project collaboration and repository cleanliness.
+
+---
+
+## Prerequisites
+
+- Basic knowledge of Git (committing, branching, pushing, pulling).
+- Git installed locally ([Download Git](https://git-scm.com/)).
+
+---
+
+## Git Rebase
+
+### What is Git Rebase?
+
+Git Rebase is a command that moves or combines a sequence of commits to a new base commit. It is used to:
+
+- Integrate changes from one branch into another.
+- Clean up commit history.
+- Avoid unnecessary merge commits.
+
+---
+
+### Basic Usage
+
+```bash
+git checkout feature-branch
+git rebase main
