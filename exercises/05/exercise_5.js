@@ -32,3 +32,6 @@ module.exports = {
 
  * https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap
  */
+
+// I don't know if this is the right place to put this, but I think it would be
+// helpful to have a list of all the functions we used in this exercise.
